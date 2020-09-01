@@ -42,8 +42,13 @@
 
 |   Command   |         Result          |
 |     ---     |           ---           |
+<<<<<<< HEAD
 |`python --version` in Anaconda Prompt         |(python 3.8.3)|
 |`python --version` in regular Command Prompt  |(python 3.8.3)|
+=======
+|`python --version` in Anaconda Prompt         |(Python 3.8.3)|
+|`python --version` in regular Command Prompt  |(Python 3.8.3)|
+>>>>>>> 9b66bec3bcc16c252faadf6cfad77b8c1a98ccde
 
 * If you didn't get a result in the regular command prompt, it means Python didn't get added to your path variable.
 * It's not strictly necessary. It just means you should run Python from the CLI using Anaconda Prompt instead of a regular command prompt. Or you need to add the path to Python to your path variable.
